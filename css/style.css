@@ -43,6 +43,11 @@ table{
     width: 80px;
 }
 
+.gameScore{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .level{
     border: none;
     border-radius: 2px;
@@ -55,8 +60,8 @@ table{
 }
 
 .hintButton{
-    height: 40px;
-    width: 40px;
+    height: 55px;
+    width: 55px;
     margin-right: 10px;
     margin-bottom: 10px;
     background-color: greenyellow;
@@ -71,8 +76,8 @@ table{
 }
 
 .manuallyButton{
-    height: 45px;
-    width: 45px;
+    height: 55px;
+    width: 55px;
     margin-left: 10px;
     margin-bottom: 10px;
     background-color: greenyellow;
