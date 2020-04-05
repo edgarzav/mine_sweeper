@@ -17,7 +17,7 @@
         </div>
         <div class="gameLevel">
             <button class="safeButton" onclick="safeClick()">safe button</button>
-            <button class="level undoButton" onclick="undo(this)">Undo</button>
+            <button class="undoButton" onclick="undo(this)">Undo</button>
             <select class="level-select" onchange="onLevelSelect()">
                 <option value="Medium">Medium</option>
                 <option value="Beginner">Beginner</option>
@@ -26,19 +26,16 @@
         </div>
         <div class="gameScore">
             <h2 class="score livesLeft">Lives left: 3</h2>
-            <button class="level isWin" onclick="resetGame()">🙂</button>
+            <button class="isWin" onclick="resetGame()">🙂</button>
             <h2 class="score bestScore">Best Score: 0</h2>
         </div>
         <div class="controlButtons">
-            <button class="level manuallyButton" onclick="manualMode(this)">manual</button>
+            <button class="manuallyButton" onclick="manualMode(this)">manual</button>
             <h6 class="safeAviable">3 clicks available</h6>
-            <button class="level hintButton" onclick="getHint(this)">Hint Off</button>
+            <button class="hintButton" onclick="getHint(this)">Hint Off</button>
         </div>
-
-
         <table>
             <tbody class="boardGame">
-
             </tbody>
         </table>
     </div>
