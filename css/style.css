@@ -1,24 +1,34 @@
-body{
+body {
     text-align: center;
-    width:40%;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
     box-sizing: border-box;
     margin: 0 auto;
     display: flex;
+    color: #fff;
     align-items: center;
     justify-content: center;
     background-color: black;
 }
-button:focus {outline:0;}
 
-table{
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+
+button:focus {
+    outline: 0;
+}
+
+table {
     width: 100%;
     height: 90%;
     border-spacing: 0;
     margin-top: 30px;
 }
 
-
-.cell{
+.cell {
     background-color: greenyellow;
     width: 35px;
     height: 35px;
@@ -26,115 +36,116 @@ table{
     max-height: 15px;
     margin: 0;
     padding: 0;
-
-  
 }
-.darker{
+
+.level-select {
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.darker {
     background-color: rgb(159, 236, 43);
 }
 
 .status {
-   font-size: 14px;
+    font-size: 14px;
     display: inline;
     padding: 15px;
 }
 
-.medium, .expert, .beginner{
+.gameLevel {
+    padding-bottom: 10px;
+}
+
+.medium, .expert, .beginner {
     width: 80px;
 }
 
-.gameScore{
+.controlButtons{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.gameScore {
     display: flex;
     justify-content: space-evenly;
 }
 
-.level{
-    border: none;
-    border-radius: 2px;
-    height: 30px;
-    background-color: white;
-}
-
-.safeClass{
+.safeClass {
     background-color: red;
 }
 
-.hintButton{
+.hintButton {
     height: 55px;
     width: 55px;
-    margin-right: 10px;
-    margin-bottom: 10px;
     background-color: greenyellow;
     border: none;
     text-align: center;
     border-radius: 50%;
-    float: right;
 }
 
-.undoButton{
+.undoButton {
     background-color: rgb(255, 115, 0);
+    padding: 6px;
+    border: none;
+    border-radius: 3px;
 }
 
-.manuallyButton{
+.manuallyButton {
     height: 55px;
     width: 55px;
-    margin-left: 10px;
-    margin-bottom: 10px;
     background-color: greenyellow;
     border: none;
     text-align: center;
     border-radius: 50%;
-    float: left;
 }
 
-.safeButton{
-   width: 110px;
-   margin-top: 10px;
-
+.safeButton {
+    padding: 6px;
+    border: none;
+    border-radius: 3px;
+    background-color: #fff;
 }
 
-.safe{
+.safe {
     height: 40px;
 }
-.safeAviable{
+
+.safeAviable {
     margin: 0;
     padding: 0;
-    top: 0;
+    font-size: 14px;
 }
 
-.score{
-    margin: 20px;
-    display: inline;
+.isWin {
+    background: transparent;
+    text-align: center;
+    font-size: 40px;
+    border: none;
 }
 
- .isWin {
-  background: transparent;
-  text-align: center;
-  font-size: 40px;
-  border: none;
-}
-
-table .revel{
+table .revel {
     background-color: burlywood;
 }
 
-table .darkeRevel{
+table .darkeRevel {
     background-color: rgb(184, 153, 114)
 }
-  
 
-.gameConteiner{
-    box-sizing: border-box; 
+.gameConteiner {
+    box-sizing: border-box;
     width: 500px;
     height: 500px;
     max-width: 500px;
     max-height: 500px;
-    background-color: rgb(113, 168, 31);
+    background-color: #4A752D;
     margin-top: 50px;
 }
 
-.gameStatus{
+.gameStatus {
+    display: flex;
+    justify-content: center;
     width: 100%;
-    margin-top: 20px;
 }
-

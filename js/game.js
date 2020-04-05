@@ -342,8 +342,9 @@ function getNegsIsShown(posI, posJ) {
 }
 
 
-function chooseLevel(elLevel) {
-    switch (elLevel.innerHTML) {
+function onLevelSelect() {
+     var selectedLevel = document.querySelector('.level-select').value;
+    switch (selectedLevel) {
         case 'Expert':
             gLevel.SIZE = 12;
             gLevel.MINES = 30;

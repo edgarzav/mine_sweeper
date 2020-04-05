@@ -34,9 +34,9 @@ function renderBestScore(score) {
 
 function renderGameStatus() {
     var strHTML = ` 
-    <h2 class="status secsPassed">Time elapsed: ${gGame.secsPassed}</h2>
+    <h2 class="status secsPassed"><i class="fas fa-stopwatch"></i></i> ${gGame.secsPassed}</h2>
     <h2 class="status shownCount">Revealed: ${gGame.shownCount}</h2>
-    <h2 class="status markedCount">Marked: ${gGame.markedCount}</h2>`
+    <h2 class="status markedCount"><i class="far fa-flag"></i> ${gGame.markedCount}</h2>`
     document.querySelector('.gameStatus').innerHTML = strHTML;
     setTimer();
 }
